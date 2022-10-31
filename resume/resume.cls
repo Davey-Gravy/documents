@@ -1,4 +1,5 @@
-sional CV - RESUME CLASS FILE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV - RESUME CLASS FILE
 %
 % This template has been downloaded from:
 % http://www.LaTeXTemplates.com
