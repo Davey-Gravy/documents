@@ -1,35 +1,59 @@
 \documentclass{letter}
-\usepackage[a4paper,left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}
+\usepackage[a4paper, left=1.25cm, right=1.25cm, top=1cm, bottom=1cm]{geometry}
+\usepackage[version=4]{mhchem}
 
 \signature{Davis Cole}
-\address{8 Reservoir Road\\ Lebanon, NH 03766 \\ (603) 727 6428 \\ davisrcole@gmail.com}
+\address{8 Reservoir Road\\ Lebanon, NH 03766 \\ davisrcole@gmail.com}
 \begin{document}
 
 \begin{letter}{Graduate Admissions \\ Thayer School of Engineering \\ Dartmouth College \\ 15 Thayer Drive \\ Hanover, NH 03755}
-\opening{Dear Thayer School of Engineering Graduate Admissions,}
+    \opening{Dear Thayer School of Engineering Graduate Admissions,}
 
-My name is Davis Cole and I am currently a R\&D Verification Engineer at Ansys Inc. in Lebanon.
-Prior to starting this position, I worked at DEKA Research \& Development in Manchester as a Verification \& Validation
-Test Engineer, where I aided in the development of state-of-the-art medical devices. Despite these titles, 
-I have been utilized in a wide array of tasks by mechanical, electrical, systems, controls, and software engineering disciplines 
-to progress project goals. Having been exposed to this range of disciplines, and being formally educated in mechanical engineering, 
-I am confident that I would benefit from a graduate studies at a premier institution to strengthen my knowledge in traditional
-mechanical engineering subjects including thermofluids and applied mathematics, and to further develop other skills in software 
-engineering such as high performance computing. Considering that the Fluent CFD code that I work with on a daily basis was 
-developed in part by Dartmouth and other affiliates, I cannot think of a better place to advance my education.
+    My name is Davis Cole and I am a R\&D Verification Engineer at Ansys Inc. in Lebanon.
+    Prior to starting this position, I worked at DEKA R\&D in Manchester as a test engineer, aiding in the development 
+    of state-of-the-art medical devices. Despite these titles, I have done work for various engineering disciplines to 
+    progress project goals. I am confident that I would benefit from graduate studies at Dartmouth by advancing my knowledge 
+    in mechanical engineering subjects including thermofluids and applied mathematics, and further developing other skills 
+    in software engineering such as high-performance computing. The Fluent computational fluid dynamics (CFD) code I work with on a 
+    daily basis was developed in part by Dartmouth and other affiliates, and I cannot think of a better place to advance my education.
 
-I was introduced to CFD in my junior year at the University of New Hampshire (UNH) through an introductory course.
-After learning about various discretization schemes, solution methods, and turbulence modeling, I was introduced to OpenFOAM, 
-creating toy simulations that demonstrated convection, diffusion, and other physical phenomena. Following this course,
-I was able to apply my knowledge
+    I was introduced to CFD in my junior year at the University of New Hampshire (UNH) through an introductory course.
+    After learning about various discretization schemes, solution methods, and turbulence modeling, I was introduced to OpenFOAM,
+    creating toy simulations that demonstrated convection, diffusion, and other physical phenomena. Following this course,
+    I was able to apply what I learned at DEKA R\&D as an intern, primarily focused on modeling flow through deformed IV tubes. 
+    This employed a form of na\"ive fluid-structure interaction, where a separate finite element analysis package modeled hyperelastic 
+    deformation of the IV tubes, which were exported to OpenFOAM for CFD analysis. Having seen the utility of engineering 
+    simulation first-hand in performing root cause analysis and iterative design, I became incredibly interested in this field.
 
-Thank you for your time and consideration.
+    I then sought out a capstone project that involved CFD, and I became the lead for a research project investigating the trajectory 
+    of aerosolized COVID-19 particles in the built environemnt, with a focus on classrooms and methods to mitigate lateral transfer to 
+    prevent infection. Under the assumption that aerosols behave as a passive scalar in a flow field, we designed experiments using
+    \ce{CO_{2}} as a passive scalar. This project coincided with the pandemic, and access to classrooms was limited, demonstrating an 
+    opportunity to develop a digital twin of the classrooms. This resulted in my first experience with Ansys Workbench and Fluent. 
+    \ce{CO_{2}} concentration data from initial experiments served as a reference for me to develop an initial model while the team organized 
+    access to classrooms. As new experiments were performed, the CFD models were refined to serve as a testbed for transfer prevention methods
+    including physical barriers, box fans, and supplemental exhaust systems. This model was critical for rapid prototyping of transfer solutions, 
+    reducing time spent setting up experiments and lowering material expenses.
 
-I look forward to your reply.
+    In parallel with my capstone, I took an elective in high-performance computing. This taught me scientific computing with C++, version 
+    control with Git, and parallelization with OpenMP and MPI. Given that software engineering was not emphasized in UNH's 
+    mechanical engineering curriculum, there was a learning curve to overcome, but as my final project I chose to simulate the 2D lid-driven 
+    cavity problem using the SIMPLE algorithm to connect the course to CFD.
 
-\closing{Yours Faithfully,}
+    Prior to graduation, I was offered a position at DEKA R\&D as a mechanical engineer to continue working on the same project as
+    my internship. However, I had spent two weeks in Iceland for a brief sustainability study abroad program, and I was inspired by their
+    pervasive use of renewable energy. Having attended lectures at Reykjavik University during this program, I decided to enroll  
+    and pursue a Master's degree in Sustainable Energy Engineering, in hopes of contributing to the clean energy transition stateside. 
+    While I had no issues academically, my mental health suffered, resulting in my return after one semester. Regardless, I continue to have
+    a strong interest in sustainability, and I hope to apply engineering analysis to renewable energy systems in the future.
 
+    Having been born and raised in Lebanon, Dartmouth has been a constant presence in my life, with my grandmother having served as 
+    the ski team's secretary, and my father being an alumnus. Due to this, attending Dartmouth has been a bit 
+    of a dream for me, and I would be ecstatic to continue this legacy for another generation.
 
+    Thank you for your time and consideration, and I look forward to your response!
+
+    \closing{Yours Faithfully,}
 
 \end{letter}
 \end{document}
